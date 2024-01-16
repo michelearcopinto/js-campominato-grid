@@ -17,6 +17,10 @@ main {
     justify-content: center;
 }
 
+#gridHTML {
+    width: 50%;
+}
+
 .box {
     aspect-ratio: 1;
     user-select: none;
@@ -41,4 +45,16 @@ main {
 .active {
     background-color: black;
     color: white;
+}
+
+@media screen and (min-width: 2000px) {
+    #gridHTML {
+        width: 999px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #gridHTML {
+        width: 70%;
+    }
 }
