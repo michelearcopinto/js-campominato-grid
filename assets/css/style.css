@@ -2,3 +2,15 @@ body {
     height: 100vh;
     background-color: aquamarine;
 }
+
+.form-select {
+    width: 120px;
+}
+
+img {
+    display: block;
+}
+
+main {
+    height: calc(100vh - 82.2px);
+}
