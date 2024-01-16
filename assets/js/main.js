@@ -28,19 +28,19 @@ playButton.addEventListener('click', function () {
     for (let i = 1; i <= difficultySelect.value; i++) {
 
         box = document.createElement('div');
-        box.classList.add('box', 'd-flex', 'justify-content-center', 'align-items-center', 'border', 'border-black', 'fw-bold', 'fs-3');
+        box.classList.add('box', 'd-flex', 'justify-content-center', 'align-items-center', 'fw-bold');
 
         if (difficultySelect.value == 100) {
 
-            box.classList.add('easy');
+            box.classList.add('easy', 'fs-3');
 
         } else if (difficultySelect.value == 81) {
 
-            box.classList.add('normal');
+            box.classList.add('normal', 'fs-2');
 
         } else if (difficultySelect.value == 49) {
 
-            box.classList.add('hard');
+            box.classList.add('hard', 'fs-1');
         }
 
         box.addEventListener('click', function () {
