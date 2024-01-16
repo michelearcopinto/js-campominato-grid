@@ -22,17 +22,19 @@
 
         <div class="d-flex align-items-center gap-2">
             <span>Difficulty:</span>
-            <select class="form-select" aria-label="Default select example">
-                <option value="Easy">Easy</option>
-                <option value="Normal">Normal</option>
-                <option value="Hard">Hard</option>
+            <select id="difficultySelect" class="form-select" aria-label="Default select example">
+                <option value="100">Easy</option>
+                <option value="81">Normal</option>
+                <option value="49">Hard</option>
             </select>
-            <button type="button" class="btn btn-secondary">Play</button>
+            <button id="playButton" type="button" class="btn btn-secondary">Play</button>
         </div>
     </header>
 
-    <main id="gridHTML" class="d-flex justify-content-center align-items-center">
+    <main>
+        <div id="gridHTML" class="d-flex flex-wrap">
 
+        </div>
     </main>
 
     <footer class="fixed-bottom bg-white p-3">
